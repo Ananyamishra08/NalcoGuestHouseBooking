@@ -6,7 +6,9 @@
     <title>Guest House Booking</title>
     <link rel="stylesheet" href="herosection.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<!--     used the scrolltrigger !! -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
 
 </head>
 <body>
@@ -43,9 +45,9 @@
                 <div class="hidden sm:ml-6 sm:block">
                   <div class="flex space-x-4">
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                    <a href="#" class="navelements rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" aria-current="page">Dashboard</a>
-                    <a href="#" class="navelements rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Login</a>
-                    <a href="#" class="navelements rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Register</a>
+                    <a  href="/NalcoGuestHouseBooking/public/Pagesfornavelements/dashboard.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white navelements" aria-current="page">Dashboard</a>
+                    <a href="/NalcoGuestHouseBooking/public/Pagesfornavelements/login.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white navelements">Login</a>
+                    <a  href="/NalcoGuestHouseBooking/public/Pagesfornavelements/register.html" class="navelements rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white navelements">Register</a>
                   </div>
                 </div>
               </div>
@@ -78,9 +80,9 @@
           <div class="sm:hidden" id="mobile-menu">
             <div class="space-y-1 px-2 pb-3 pt-2">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="#" class="navelements block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Dashboard</a>
-              <a href="#" class="navelements block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Login</a>
-              <a href="#" class="navelements block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Register</a>
+              <a href="/NalcoGuestHouseBooking/public/Pagesfornavelements/dashboard.html" class="navelements" aria-current="page">Dashboard</a>
+              <a href="/NalcoGuestHouseBooking/public/Pagesfornavelements/login.html" class="navelements">Login</a>
+              <a href="/NalcoGuestHouseBooking/public/Pagesfornavelements/register.html" class="navelements">Register</a>
             </div>
           </div>
     </nav>
@@ -111,15 +113,14 @@
               <div class="cursor"></div>
               <div class="cursor-blur"></div>
               <div id="about-us" class="mt-8">
-                  <h3 class="text-lg font-semibold text-gray-800">ABOUT US</h3>
-                  <p  class="mt-2 text-gray-600">
+                  <h3 class="text-5xl font-semibold text-gray-100 md:decoration-4">ABOUT US</h3>
+                  <p  class="mt-2 text-gray-100 md:decoration-4">
                     Our guest houses offer a cozy, home-away-from-home feel with thoughtful amenities and stunning natural surroundings.Complete your booking securely and confidently, knowing your reservation is confirmed.Choose the perfect guest house that fits your needs and budget, and customize your stay.
                   </p>
               </div>
     </div>
    </main>
    <script src="gsap.js"></script>
-    <!-- <script src="fornavbar.js"></script> -->
     <script src="script.js"></script>
 </body>
 </html>
