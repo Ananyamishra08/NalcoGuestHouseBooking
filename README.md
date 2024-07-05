@@ -2,7 +2,9 @@
 
 The page looks like this: 
 
-![alt text](https://github.com/Ananyamishra08/NalcoGuestHouseBooking/blob/main/photo.png)
+![alt text](https://github.com/Ananyamishra08/NalcoGuestHouseBooking/blob/main/pic1.png)
+![alt text](https://github.com/Ananyamishra08/NalcoGuestHouseBooking/blob/main/pic2.png)
+
 form page :
 ![alt text](https://github.com/Ananyamishra08/NalcoGuestHouseBooking/blob/main/photo2.png)
  
