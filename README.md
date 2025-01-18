@@ -30,5 +30,3 @@ Step 3: Create a db.json file
   Step 4: Create Frontend Files: Develop the frontend using HTML, CSS, and JavaScript.
 Set Up the Server: Create an Express server to handle API requests and serve static files.
 Run the Server: Start the server and test your application.(using Nodejs or normal HTTP- server)
-Tech stack used:
-
